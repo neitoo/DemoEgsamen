@@ -37,7 +37,7 @@ namespace RentalPointCPKiOv2.Model
         {
             get
             {
-                return string.Format("{0}:{1}", TimeOrder.Hours, TimeOrder.Minutes);
+                return TimeOrder.Minutes == 0 ? string.Format("{0}:{1}{1}", TimeOrder.Hours, TimeOrder.Minutes) : string.Format("{0}:{1}", TimeOrder.Hours, TimeOrder.Minutes);
             }
         }
         public int IdClient { get; set; }

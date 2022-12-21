@@ -32,3 +32,5 @@ C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPo
 C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\obj\Debug\RentalPointCPKiOv2.application
 C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\obj\Debug\window\ListClientWindow.g.cs
 C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\obj\Debug\window\ListClientWindow.baml
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\obj\Debug\window\ChangeDataWindow.g.cs
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\obj\Debug\window\ChangeDataWindow.baml

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\App.xaml
-5-1588734385
+6-1699299611
 2278373188
-201938251423
+21471872639
 192068935412
-window\AdminWindow.xaml;window\ListClientWindow.xaml;window\LoginUserWindow.xaml;window\OldShiftWindow.xaml;window\SellerWindow.xaml;
+window\AdminWindow.xaml;window\ChangeDataWindow.xaml;window\ListClientWindow.xaml;window\LoginUserWindow.xaml;window\OldShiftWindow.xaml;window\SellerWindow.xaml;
 
 False
 

@@ -55,7 +55,13 @@
                     <DataGridTextColumn Header="Статус" Binding="{Binding Status}"/>
                     <DataGridTextColumn Header="Дата закрытия" Binding="{Binding DateCloseSplit}"/>
                     <DataGridTextColumn Header="Время проката" Binding="{Binding RentalTime}"/>
-
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button x:Name="closeOrderBtn" Content="Закрыть" Click="closeOrderBtn_Click"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
             <StackPanel Grid.Column="1" Background="#FF76E383" Orientation="Vertical">

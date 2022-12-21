@@ -16,5 +16,6 @@ namespace RentalPointCPKiOv2.Class
         public static SellerWindow createSellerWindow(Staff user) { return new SellerWindow(user); }
         public static LoginUserWindow createLoginWindow() { return new LoginUserWindow(); }
         public static ListClientWindow createListClientWindow() { return new ListClientWindow(); }
+        public static ChangeDataWindow createChangeDataWindow(Orders orders, OldShiftWindow oldShift) { return new ChangeDataWindow(orders, oldShift); }
     }
 }

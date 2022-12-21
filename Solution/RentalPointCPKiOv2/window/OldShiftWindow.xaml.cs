@@ -14,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using RentalPointCPKiOv2.Database;
+using RentalPointCPKiOv2.Model;
 
 namespace RentalPointCPKiOv2.window
 {
@@ -22,6 +23,7 @@ namespace RentalPointCPKiOv2.window
     /// </summary>
     public partial class OldShiftWindow : Window
     {
+        private Orders _orders;
         public OldShiftWindow(Staff user)
         {
             InitializeComponent();
@@ -40,6 +42,12 @@ namespace RentalPointCPKiOv2.window
         private void listClientBtn_Click(object sender, RoutedEventArgs e)
         {
             ClassWindow.createListClientWindow().Show();
+        }
+
+        private void closeOrderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var orderSelected = (sender as Button).DataContext as Orders;
+            ClassWindow.createChangeDataWindow(orderSelected, this).Show();
         }
     }
 }
