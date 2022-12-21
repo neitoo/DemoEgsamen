@@ -1,0 +1,74 @@
+﻿<Window x:Class="RentalPointCPKiOv2.window.OldShiftWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalPointCPKiOv2.window"
+        mc:Ignorable="d"
+        xmlns:model ="clr-namespace:RentalPointCPKiOv2.Model"
+        d:DataContext="{d:DesignInstance Type=model:Staff}"
+        Title="ЦКПиО им. Менделеева: главная" Height="500" Width="800"
+        MinWidth="1000"
+        MinHeight="700"
+        Background="#FFFFFF"
+        FontFamily="Comic Sans MS">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="11*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF76E383">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" Grid.Column="0">
+                <Image x:Name="userPhoto" Source="{Binding Image}" Margin="10"/>
+                <TextBlock x:Name="fullNameTb" Text="{Binding FullName}" Margin="10" VerticalAlignment="Center" FontSize="16"/>
+                <Label Content="Должность:" Margin="20 20 0 20" VerticalAlignment="Center" FontSize="16" FontWeight="Bold"/>
+                <TextBlock x:Name="staffTb" Text="{Binding Roles.Role}"  VerticalAlignment="Center" FontSize="16"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" HorizontalAlignment="Right">
+                <Button x:Name="quitAccBtn" Content="Выйти" Margin="0 0 20 0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFFFFF" FontSize="15" FontWeight="Bold" BorderThickness="0" Padding="15 6 15 6"
+                        Click="quitAccBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="215"/>
+            </Grid.ColumnDefinitions>
+            <DataGrid Grid.Row="0" x:Name="OrdersDataGrid" AutoGenerateColumns="False" IsReadOnly="True" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" Binding="{Binding ID}" Width="50"/>
+                    <DataGridTextColumn Header="Код заказа" Binding="{Binding IdOrders}" Width="1.5*"/>
+                    <DataGridTextColumn Header="Дата создания" Binding="{Binding DataCreateSplit}"/>
+                    <DataGridTextColumn Header="Время создания" Binding="{Binding TimeOrderSplit}"/>
+                    <DataGridTextColumn Header="Код клиента" Binding="{Binding IdClient}"/>
+                    <DataGridTextColumn Header="Статус" Binding="{Binding Status}"/>
+                    <DataGridTextColumn Header="Дата закрытия" Binding="{Binding DateCloseSplit}"/>
+                    <DataGridTextColumn Header="Время проката" Binding="{Binding RentalTime}"/>
+
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Grid.Column="1" Background="#FF76E383" Orientation="Vertical">
+                <Button x:Name="listClientBtn" Content="Список клиентов" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFFFFF" FontSize="15" FontWeight="Bold" BorderThickness="0" Padding="15 6 15 6" 
+                        Click="listClientBtn_Click">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
+                    </Button.Resources>
+                </Button>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

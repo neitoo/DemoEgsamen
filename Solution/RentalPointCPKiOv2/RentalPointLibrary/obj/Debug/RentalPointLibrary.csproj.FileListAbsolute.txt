@@ -1,0 +1,13 @@
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\RentalPointLibrary.dll
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\RentalPointLibrary.pdb
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\obj\Debug\RentalPointLibrary.csproj.CoreCompileInputs.cache
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\obj\Debug\RentalPointLibrary.dll
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\obj\Debug\RentalPointLibrary.pdb
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\RentalPointCPKiOv2.exe
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\EntityFramework.dll
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\RentalPointCPKiOv2.pdb
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\RentalPointCPKiOv2.exe.config
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\EntityFramework.xml
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\obj\Debug\RentalPointLibrary.csproj.AssemblyReference.cache
+C:\Users\MSI\OneDrive\Документы\DemoEgsamen\DemoCPKiO\Solution\RentalPointCPKiOv2\RentalPointLibrary\obj\Debug\RentalPointLibrary.csproj.CopyComplete

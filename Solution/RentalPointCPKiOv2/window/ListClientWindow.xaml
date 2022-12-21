@@ -1,0 +1,44 @@
+﻿<Window x:Class="RentalPointCPKiOv2.window.ListClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RentalPointCPKiOv2.window"
+        mc:Ignorable="d"
+        xmlns:model ="clr-namespace:RentalPointCPKiOv2.Model"
+        d:DataContext="{d:DesignInstance Type=model:Clients}"
+        Title="ЦКПиО им. Менделеева: клиенты" Height="450" Width="800" 
+        MinWidth="1000"
+        MinHeight="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1.5*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <DataGrid x:Name="listClientDG" AutoGenerateColumns="False" IsReadOnly="True" ColumnWidth="*">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Код клиента" Binding="{Binding IdClient}"/>
+                    <DataGridTextColumn Header="Фамилия" Binding="{Binding Surname}"/>
+                    <DataGridTextColumn Header="Имя" Binding="{Binding Firstname}"/>
+                    <DataGridTextColumn Header="Отчество" Binding="{Binding Middlename}"/>
+                    <DataGridTextColumn Header="Номер паспорта" Binding="{Binding Passport}"/>
+                    <DataGridTextColumn Header="Дата рождения" Binding="{Binding BirtchDateSplit}"/>
+                    <DataGridTextColumn Header="Адрес" Binding="{Binding Address}"/>
+                    <DataGridTextColumn Header="Емайл" Binding="{Binding Email}"/>
+                    <DataGridTextColumn Header="Пароль" Binding="{Binding Password}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button x:Name="regClientBtn" Content="Регистрация клиента" Margin="10" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FF76E383" FontSize="15" FontWeight="Bold" BorderThickness="0" Padding="15 6 15 6" 
+                        Click="regClientBtn_Click">
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="10"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

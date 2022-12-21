@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RentalPointCPKiOv2.exe" version="1.0.0.0" publicKeyToken="fe87222561182961" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RentalPointCPKiOv2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RentalPointCPKiOv2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ru\EntityFramework.resources.dll" size="501456">
+      <assemblyIdentity name="EntityFramework.resources" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="ru" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HeToYwsrFcDybiQM5EVxXH6AJ2JRQQsKGyA5tpD3Rn0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RentalPointCPKiOv2.exe" size="276440">
+      <assemblyIdentity name="RentalPointCPKiOv2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v8s/irVzBl4ICEbAa7ELciZlT9mj8QjNF+nqLUebbBM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Model\RentalPointModel.Context.tt" size="22940">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UpprhDDRuqfWWJ+gvFYzNmOYORVpX9dDuFQ1/kGmYzw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Model\RentalPointModel.tt" size="25285">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Dut8/HRrlpSp7h6vMhiPh9KPrW9VKlXwj6FkO/Xa6qM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RentalPointCPKiOv2.exe.config" size="1880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2oi0HskP7iT/jrTmz8WammXJcONT3NIK7PzsMjtO3wI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\logo.ico" size="18356">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i71tl/lIsW1l3d35ZVLaBv7AnGpEFG6qqTq0jK5N93o=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-MJ72F3T\MSI" issuerKeyHash="41085794376249d6418fbf7af047361f34d5f5b6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pplLQE/hReLTLGbuxtCBaFFuZNbf09Pqf969LtMEBuQ=</DigestValue></Reference></SignedInfo><SignatureValue>ctBySEcFJbyUy98RPF5368mVcbQjwrfHAzLGrbWZEWU6Q7F+r220cc6kXlinlIgOsDlQ8zpQWk3W3mOjuQxqOVXqER7YcmDzx591NcywZLtjFXNaCTpvAAFoZf8/7/lrF2P/7nDoCLKnfHyYd8VGk3QiQ1RYVVDHh7J2yyzK7+E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5mhCVCa7AId8qunJzIi3Pkw+FBd9MD3iaMonSs4UEmdFidC3Ytvz44y4egSnyuBbJW+FsjUQ+XasWVumwzXmhtFVNvAmEjYv8zXq7VWGO714y2W6w9aWQjnLegzcppdnu75kzQUpdGLg0qyR03wux0TF98EVWY6YMcuXsJaiP0E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e40604d32ebdde7fead3d3dfd6646e516881d0c6ee662cd3e245e14f404b99a6" Description="" Url=""><as:assemblyIdentity name="RentalPointCPKiOv2.exe" version="1.0.0.0" publicKeyToken="fe87222561182961" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-MJ72F3T\MSI</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PaozOg4cCpEgEYOPhwV4M+PhjOodek1AJMD96PQcNuQ=</DigestValue></Reference></SignedInfo><SignatureValue>kiK/w1EOBah1Os2wm4TjyuAEe73MV6mLVGqua8kGNt5+oqWxMNgVOY625/cjLCI3DgBv2Bf3OQC0SX8yJvSm4fbqNqv1zkqUV0IbozjTrl4FBeZXD0KXcQpGmGBEWBKBzSxPmWXBc7lc2cDnQ434FV3ZYn3QsOfZ5AzErjsvypk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5mhCVCa7AId8qunJzIi3Pkw+FBd9MD3iaMonSs4UEmdFidC3Ytvz44y4egSnyuBbJW+FsjUQ+XasWVumwzXmhtFVNvAmEjYv8zXq7VWGO714y2W6w9aWQjnLegzcppdnu75kzQUpdGLg0qyR03wux0TF98EVWY6YMcuXsJaiP0E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQYEMYUm1bCbRB3jjTEgcN4DANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYARABFAFMASwBUAE8AUAAtAE0ASgA3ADIARgAzAFQAXABNAFMASTAeFw0yMjEyMjAxMzEzMTdaFw0yMzEyMjAxOTEzMTdaMDExLzAtBgNVBAMeJgBEAEUAUwBLAFQATwBQAC0ATQBKADcAMgBGADMAVABcAE0AUwBJMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmaEJUJrsAh3yq6cnMiLc+TD4UF30wPeJoyidKzhQSZ0WJ0Ldi2/PjjLh6BKfK4Fslb4WyNRD5dqxZW6bDNeaG0VU28CYSNi/zNertVYY7vXjLZbrD1pZCOct6DNyml2e7vmTNBSl0YuDSrJHTfC7HRMX3wRVZjpgxy5ewlqI/QQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALlqN685XxvwYTWOl8vmM/alWPXX3JYGT9lpFYgA9XKAZF96dsHzAtScoYduo68ZhWHH5ywmUE/nMnyrII2tLR4nV6qp2WEJ1TgDpy/YUu1xPD91TFx+m09Np/4pvzMd50pFZ9r0G5mcGUQfJKh8H8Ho8LcBWS390iym6CmFLt6u</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
