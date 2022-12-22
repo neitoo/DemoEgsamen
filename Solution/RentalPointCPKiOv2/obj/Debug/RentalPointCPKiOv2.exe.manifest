@@ -79,14 +79,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RentalPointCPKiOv2.exe" size="286680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RentalPointCPKiOv2.exe" size="287704">
       <assemblyIdentity name="RentalPointCPKiOv2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xhIF/e2WkTF31+LRiefAU/OC/CaTh3odIuHfZHxFI/E=</dsig:DigestValue>
+        <dsig:DigestValue>m4ebARAkcGCtXUQXMsiX0Nmda1EGzRTdt4929DnzZeI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

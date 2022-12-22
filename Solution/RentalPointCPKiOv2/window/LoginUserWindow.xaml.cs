@@ -59,7 +59,7 @@ namespace RentalPointCPKiOv2.window
 
         private void userLoginTb_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MessageBox.Show("Я клиент");
+            MessageBox.Show("Режим клиента временно не доступен. Приносим свои извинения.");
         }
 
         private void showPassword_Checked(object sender, RoutedEventArgs e)

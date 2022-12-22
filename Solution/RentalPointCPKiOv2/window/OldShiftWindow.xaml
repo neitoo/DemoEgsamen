@@ -75,6 +75,10 @@
                 </Button>
 
             </StackPanel>
+            <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom">
+                <Label Content="Время сессии" HorizontalAlignment="Center" FontSize="15"/>
+                <TextBlock  x:Name="timerTb" TextAlignment="Center" FontSize="25"  Margin="0 0 0 30"/>
+            </StackPanel>
         </Grid>
     </Grid>
 </Window>

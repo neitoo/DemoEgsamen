@@ -8,13 +8,13 @@
         xmlns:model ="clr-namespace:RentalPointCPKiOv2.Model"
         d:DataContext="{d:DesignInstance Type=model:Staff}"
         Title="ЦКПиО им. Менделеева: главная" Height="500" Width="800"
-        MinWidth="400"
-        MinHeight="480"
+        MinWidth="1000"
+        MinHeight="700"
         Background="#FFFFFF"
         FontFamily="Comic Sans MS">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="11*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" Background="#FF76E383">
@@ -38,6 +38,21 @@
                         </Style>
                     </Button.Resources>
                 </Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="215"/>
+            </Grid.ColumnDefinitions>
+            
+            <StackPanel Grid.Column="1" Background="#FF76E383" Orientation="Vertical">
+                
+
+            </StackPanel>
+            <StackPanel Grid.Column="1" Grid.Row="1" VerticalAlignment="Bottom">
+                <Label Content="Время сессии" HorizontalAlignment="Center" FontSize="15"/>
+                <TextBlock  x:Name="timerTb" TextAlignment="Center" FontSize="25"  Margin="0 0 0 30"/>
             </StackPanel>
         </Grid>
     </Grid>
